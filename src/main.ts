@@ -10,7 +10,7 @@ async function bootstrap() {
     .setTitle('Crypto-plus backend')
     .setDescription('The crypto-plus API to issue new green ICOs.')
     .setVersion('1.0')
-    .addTag('Crypto-plus')
+    .addTag('Crypto-plus-1')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
